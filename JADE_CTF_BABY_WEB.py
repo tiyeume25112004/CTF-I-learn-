@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests
 def find(page):
     url="http://34.76.206.46:10008/"
