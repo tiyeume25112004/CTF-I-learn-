@@ -6,7 +6,7 @@ def find(page):
         "page":page
     }
     r=requests.get(url,params=params)
-    output=f"{page} has word{r.text}"
+    output=f"{page} has word {r.text}"
     return output
 for i in range(500):
     x=find(i)
