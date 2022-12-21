@@ -10,7 +10,6 @@ cookie={
     }
 
 password = ''
-start = time.time()
 for i in range(8):
     print(i, end=' ')
     for j in range(32, 127):
@@ -23,5 +22,3 @@ for i in range(8):
             break
 
 print(password)
-end = time.time()
-print(end - start)
