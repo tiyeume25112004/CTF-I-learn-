@@ -1,5 +1,5 @@
 import requests
-words='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy'
+words='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy' # cái này dùng ascii rồi cộng chuỗi nhá, cho nhanh :D
 url='https://los.rubiya.kr/chall/golem_4b5202cfedd8160e73124b5234235ef5.php'
 a=""
 cookies={
