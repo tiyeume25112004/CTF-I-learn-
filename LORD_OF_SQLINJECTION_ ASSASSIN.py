@@ -8,3 +8,4 @@ for i in c:
  r=requests.get(url,params=params,cookies=cookies)
  a=r.url
  print(f"hacker {i} accept {r.text.split('<br>')[1].split('<code>')[0]}")
+ # script kiddie luôn copy code, không hiểu code, và cũng ko biết code :v thế cho nhanh =D
