@@ -15,7 +15,7 @@ for i in range(1,50):
 # b'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=195s'
 # 21
 # 9999999999999999999999
-# b'https://www.youtube.com/watch?v=FIUbRJkKjlE' -> this is link, download video and decode morse
+# b'https://www.youtube.com/watch?v=FIUbRJkKjlE' -> this is link, download video and decode morse or you can brute 1->99
 # 22
 # 99999999999999999999999
 # b'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=3s'
