@@ -9,7 +9,6 @@ for i in range(1,50):
     r=requests.post(url,data=data)
     b=r.text.split("</p>")[0].split("</b> ")
     print(base64.b64decode(b[1]))
-    print(u)
     
 # 999999999999999999999
 # b'https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=195s'
