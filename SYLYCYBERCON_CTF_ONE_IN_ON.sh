@@ -1,4 +1,4 @@
-#tui tạo 2 file sh một để upzip từng cái, một dùng loop
+#tui tạo 2 file sh một để unzip từng cái, một dùng loop
 #!/bin/bash
 
 for i in {1..101}; do
