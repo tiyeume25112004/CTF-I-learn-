@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game{
+    height: 500px;
+    width: 400px;
+    border: 1px solid hsl(0, 0%, 0%);
+    overflow: hidden;
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 10000;
+}
