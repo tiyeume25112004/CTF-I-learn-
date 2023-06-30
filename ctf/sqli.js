@@ -1,6 +1,6 @@
 /* 
 @author: konchan
-@practice build lab
+@practice build lab for KonCTF in August
  __                       .__                                         .__  .__ 
 |  | ______   ____   ____ |  |__ _____    ____             ___________|  | |__|
 |  |/ /  _ \ /    \_/ ___\|  |  \\__  \  /    \   ______  /  ___/ ____/  | |  |
