@@ -40,7 +40,7 @@ app.get('/',async (req,res)=>{
 })
 app.post('/heaths',async (req,res)=>{
         if (req.body.address){
-        const sql='select * from customers where address="'+req.body.address+'"'
+        const sql='select id,name from customers where address="'+req.body.address+'"'
         db.query(sql,(err,results,fields)=>{
             if (err) throw err;
             res.send(results)
